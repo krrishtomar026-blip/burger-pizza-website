@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Burger Pizza</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Header Start -->
+
+<header>
+
+<div class="logo">
+🍔 Burger Pizza
+</div>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#pizza">Pizza</a>
+    <a href="#burger">Burger</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="icons">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<div class="cart-box">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span id="cart-count">0</span>
+</div>
+
+<i class="fa-solid fa-user"></i>
+<button id="themeBtn">🌙</button>
+
+</div>
+
+</header>
+
+<!-- Header End -->
+
+<!-- Hero Section Start -->
+
+<section class="hero" id="home">
+
+<div class="overlay">
+
+<h1>Fresh & Delicious Food</h1>
+
+<p>
+Hot Pizza • Juicy Burgers • Pasta • Drinks
+</p>
+
+<input type="text" id="searchInput" placeholder="Search Your Favourite Food...">
+
+<br><br>
+
+<a href="https://wa.me/919718660360" target="_blank">
+<button>Order on WhatsApp</button>
+</a>
+
+
+</div>
+
+</section>
+
+ <!-- Best Selling Section Start -->
+
+<section class="best-selling" id="menu">
+
+<h2 class="title">Best Selling Items</h2>
+<div class="filter-buttons">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="burger">🍔 Burgers</button>
+    <button class="filter-btn" data-filter="pizza">🍕 Pizzas</button>
+    <button class="filter-btn" data-filter="drink">🥤 Drinks</button>
+    <button class="filter-btn" data-filter="dessert">🍰 Desserts</button>
+</div>
+
+<div class="food-container">
+
+<div class="food-card" data-category="pizza">
+
+    <img src="images/veg-delight.png" alt="Veg delight">
+
+    <h3>Veg delight pizza</h3>
+
+    <p>Onion,Capsicum,paneer,corn and olives</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹230</span></button>
+        <button class="add-cart">Medium <span>₹350</span></button>
+        <button class="add-cart">Large <span>₹480</span></button>
+
+</div>
+<button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+
+    <img src="images/paneer-pyaza.png" alt="Paneer pyaza">
+
+    <h3>Paneer pyaza</h3>
+
+    <p>Onion and Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹120</span></button>
+        <button class="add-cart">Medium <span>₹220</span></button>
+        <button class="add-cart">Large <span>₹340</span></button>
+    </div>
+<button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<!-- Veg Extreme -->
+
+<div class="food-card" data-category="pizza">
+    <img src="images/scipy-tango.png" alt="Scipy Tango">
+    <h3>Scipy Tango</h3>
+    <p>Golden Corn, Jalapeno & Red Pepper</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹180</span></button>
+        <button class="add-cart">Medium <span>₹270</span></button>
+        <button class="add-cart">Large <span>₹400</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/spicy-paneer.png" alt="Spicy Paneer">
+    <h3>Spicy Paneer</h3>
+    <p>Capsicum, Red Pepper & Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹180</span></button>
+        <button class="add-cart">Medium <span>270</span></button>
+        <button class="add-cart">Large <span>₹400</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/veggie-blast.png" alt="Veggie Blast">
+    <h3>Veggie Blast</h3>
+    <p>Onion, Capsicum, Tomato & Jalapeno</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹180</span></button>
+        <button class="add-cart">Medium <span>₹270</span></button>
+        <button class="add-cart">Large <span>₹400</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/veggie-loaded-pizza.png" alt="Veggie Loaded pizza">
+
+    <h3>Veggie Loaded</h3>
+
+    <p>Onion, Capsicum, Mushroom, Corn & Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹230</span></button>
+        <button class="add-cart">Medium <span>₹350</span></button>
+        <button class="add-cart">Large <span>₹480</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/garden-special.png" alt="Garden Special">
+
+    <h3>Garden Special</h3>
+
+    <p>Black Olive, Mushroom & Corn</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹230</span></button>
+        <button class="add-cart">Medium <span>₹350</span></button>
+        <button class="add-cart">Large <span>₹480</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/veg-extravaganza.png" alt="Veg Extravaganza">
+
+    <h3>Veg Extravaganza</h3>
+
+    <p>Onion, Capsicum, Mushroom, Olive & Corn</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹230</span></button>
+        <button class="add-cart">Medium <span>₹350</span></button>
+        <button class="add-cart">Large <span>₹480</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/cheesey-pizza.png" alt="Cheesey Pizza">
+
+    <h3>cheesey pizza</h3>
+
+    <p>Mozzarella Cheese & Cheese Blend</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹100</span></button>
+        <button class="add-cart">Medium <span>₹200</span></button>
+        <button class="add-cart">Large <span>₹300</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/cheese-and-tomato.png" alt="Cheese & Tomato">
+
+    <h3>Cheese & Tomato</h3>
+
+    <p>cheese & Tomato</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹100</span></button>
+        <button class="add-cart">Medium <span>₹200</span></button>
+        <button class="add-cart">Large <span>₹300</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+
+    <img src="images/cheese-and-corn.png" alt="Cheese & Corn">
+
+    <h3>Cheese & Corn</h3>
+
+    <p>Cheese & Sweet Corn</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹120</span></button>
+        <button class="add-cart">Medium <span>₹220</span></button>
+        <button class="add-cart">Large <span>₹340</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/double-cheesey-pizza.png" alt="double cheesy pizza">
+
+    <h3>double cheesey pizza</h3>
+
+    <p>loaded with mozzarella cheese / loaded with mo</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>120</span></button>
+        <button class="add-cart">Medium <span>₹220</span></button>
+        <button class="add-cart">Large <span>340</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    
+    <img src="images/veggies-special.png" alt="veggies-special">
+
+    <h3>veggies-special</h3>
+
+    <p>onion capsicum</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹120</span></button>
+        <button class="add-cart">Medium <span>₹220</span></button>
+        <button class="add-cart">Large <span>₹340</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/tandoori-paneer.png" alt="Tandoori Paneer">
+
+    <h3>Tandoori Paneer</h3>
+
+    <p>Onion, Capsicum & Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹200</span></button>
+        <button class="add-cart">Medium <span>₹300</span></button>
+        <button class="add-cart">Large <span>₹430</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/spicy-tadka.png" alt="Spicy Tadka">
+
+    <h3>Spicy Tadka</h3>
+
+    <p>Spicy Sauce & Red Pepper</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹200</span></button>
+        <button class="add-cart">Medium <span>₹300</span></button>
+        <button class="add-cart">Large <span>₹430</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/pizza-pasta.png" alt="pizza pasta">
+
+    <h3>pizza pasta </h3>
+
+    <p>spicy tango pasta onion capsicum corn olive</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹200</span></button>
+        <button class="add-cart">Medium <span>₹300</span></button>
+        <button class="add-cart">Large <span>₹430</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/country-veggies.png" alt="Country Veggies">
+
+    <h3>Country Veggies</h3>
+
+    <p>Onion, Capsicum & Tomato</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹150</span></button>
+        <button class="add-cart">Medium <span>₹250</span></button>
+        <button class="add-cart">Large <span>₹370</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/cheese-mushroom.png" alt="Cheese  Mushroom">
+
+    <h3>Cheese  Mushroom</h3>
+
+    <p>Mozzarella Cheese & Mushroom</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹150</span></button>
+        <button class="add-cart">Medium <span>₹250</span></button>
+        <button class="add-cart">Large <span>₹370</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/farmfresh.png" alt="Farmfresh">
+
+    <h3>Farmfresh</h3>
+
+    <p>Onion, Capsicum, Tomato & Mushroom</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹150</span></button>
+        <button class="add-cart">Medium <span>₹250</span></button>
+        <button class="add-cart">Large <span>₹370</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/onion-pizza.png" alt="Onion Pizza">
+
+    <h3>Onion Pizza</h3>
+
+    <p>Fresh Onion Topping</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹70</span></button>
+    </div>
+     <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/capsicum.png" alt="Capsicum ">
+
+    <h3>Capsicum</h3>
+
+    <p>Fresh Capsicum Topping</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/corn.png" alt="Corn ">
+
+    <h3>Corn</h3>
+
+    <p>Golden Corn Topping</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/tomato.png" alt="Tomato ">
+
+    <h3>Tomato</h3>
+
+    <p>Fresh Tomato Topping</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/onion-capsicum.png" alt="Onion Capsicum">
+
+    <h3>Onion Capsicum</h3>
+
+    <p>Onion & Capsicum</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/paneer-onion.png" alt="paneer onion">
+    <h3>paneer onion</h3>
+    <p>paneer & onion</p>
+    <div class="size-box">
+         <button class="add-cart">Regular <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+        
+<div class="food-card" data-category="pizza">
+    <img src="images/tomato-corn.png" alt="Tomato Corn">
+
+    <h3>Tomato Corn</h3>
+
+    <p>Tomato & Golden Corn</p>
+
+    <div class="size-box">
+        <button class="add-card">Regular <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/red-pepper-onion-pizza.png" alt="Red Pepper Onion pizza">
+
+    <h3>Red Pepper Onion Pizza</h3>
+
+    <p>Red Pepper & Onion</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+
+<div class="food-card" data-category="pizza">
+    <img src="images/achari-paneer.png" alt="Achari Paneer">
+
+    <h3>Achari Paneer</h3>
+
+    <p>Achari Flavour with Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pizza">
+    <img src="images/crazy-veggie-pizza.png" alt="Crazy Veggi pizza">
+
+    <h3>Crazy Veggie pizza</h3>
+
+    <p>Loaded with Fresh Veggies</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="pizza">
+    <img src="images/crazy-spicy.png" alt="Crazy Spicy">
+
+    <h3>Crazy Spicy</h3>
+
+    <p>Spicy Sauce & Veggies</p>
+
+    <div class="size-box">
+        <button class="add-cart">Regular <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="wrap">
+    <img src="images/indian-veg.png" alt="Indian Veg">
+
+    <h3>Indian Veg </h3>
+
+    <p>Fresh Veggies with Indian Spices</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="wrap">
+    <img src="images/indian-paneer.png" alt="Indian Paneer">
+
+    <h3>Indian Paneer</h3>
+
+    <p>Paneer with Indian Spices</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹100</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="wrap">
+    <img src="images/tandoori-wrap.png" alt="Tandoori Wrap">
+
+    <h3>Tandoori Wrap</h3>
+
+    <p>Tandoori Flavour with Fresh Veggies</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹120</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category=" wrap">
+    <img src="images/aloo-tikki-roll.png" alt="Aloo Tikki Roll">
+    <h3>Aloo Tikki Roll</h3>
+    <p>Crispy Aloo Tikki with Fresh Veggies & Sauces</p>
+    <div class="size-box">
+        <button class="add-cart">price <span>₹80</span></button>
+</div>
+<button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pasta">
+    <img src="images/chessey-pasta.png" alt="Cheesey Pasta">
+
+    <h3>Cheesey Pasta</h3>
+
+    <p>Creamy Cheese Pasta</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹100</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pasta">
+    <img src="images/spicy-pasta.png" alt="Spicy pasta">
+
+    <h3>Spicy pasta</h3>
+
+    <p>Spicy Pasta</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹100</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="pasta">
+    <img src="images/tandoori-cheesy.png" alt="tandoori cheesy">
+        <h3>tandoori cheesy</h3>
+
+        <p>tandoori cheesy</p>
+
+        <div class="size-box">
+            <button class="add-cart">price <span>130</span></button>
+        </div>
+         <button class="add-cart">🛒 Add to Cart</button>
+    </div>
+<div class="food-card" data-category="burger">
+    <img src="images/aloo-tikki.png" alt="Aloo Tikki">
+
+    <h3>Aloo Tikki</h3>
+
+    <p>Crispy Aloo Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹40</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="burger">
+    <img src="images/crispi-veggies.png" alt="Crispi Veggies">
+
+    <h3>Crispi Veggies </h3>
+
+    <p>Crispi Veg Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹50</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div  class="food-card" data-category="burger">
+    <img src="images/spicy-veggie.png" alt="Spicy Veggie">
+
+    <h3>Spicy Veggie</h3>
+
+    <p>Spicy Veg Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹50</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div  class="food-card" data-category="burger">
+    <img src="images/king's-special.png" alt="king's special">
+
+    <h3>king's special</h3>
+
+    <p>Double Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+
+
+<div class="food-card" data-category="burger">
+    <img src="images/paneer-special.png" alt="Paneer Special">
+
+    <h3>Paneer special</h3>
+
+    <p>Loaded with Fresh Paneer</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="burger">
+    <img src="images/double-cheesey.png" alt="Double Cheesey">
+
+    <h3>Double Cheesey</h3>
+
+    <p>Loaded with Double Cheese</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹80</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="burger">
+    <img src="images/double-patty-burger.png" alt="Double Patty Burger">
+
+    <h3>Double Patty Burger</h3>
+
+    <p>Double Veg Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="burger">
+    <img src="images/tandoori-veggie-burger.png" alt="Tandoori Veggie Burger">
+
+    <h3>Tandoori Veggie Burger</h3>
+
+    <p>Tandoori Flavour Veg Patty</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="burger">
+    <img src="images/crunchy-cheese-burger.png" alt="Crunchy Cheese Burger">
+
+    <h3>Crunchy Cheese Burger</h3>
+
+    <p>Crunchy Patty with Cheese</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="dessert">
+    <img src="images/chocolava.png" alt="ChocoLava">
+
+    <h3>Chocolava</h3>
+
+    <p>Soft ChocolateLava Cake</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="bread">
+    <img src="images/garlic-bread-sticks.png" alt="Garlic Bread Sticks">
+
+    <h3>Garlic Bread Sticks</h3>
+
+    <p>Crispy Garlic Bread Sticks</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹75</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/stuffed-garlic-bread.png" alt="Stuffed Garlic Bread">
+
+    <h3>Stuffed Garlic Bread</h3>
+
+    <p>Cheese Stuffed Garlic Bread</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/tandoori-stuffed-garli.png" alt="Tandoori Stuffed Garli">
+
+    <h3>Tandoori Stuffed Garli</h3>
+
+    <p>Tandoori Flavour Stuffed Garlic Bread</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹130</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/french-fries.png" alt="French Fries">
+
+    <h3>French Fries</h3>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹50</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="bread">
+    <img src="images/masala-fries.png" alt="Masala Fries">
+
+    <h3>Masala Fries</h3>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹60</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/pocket-parcel.png" alt="Pocket Parcel">
+
+    <h3>Pocket Parcel</h3>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹40</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/taco.png" alt="taco">
+
+    <h3>taco</h3>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹120</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/calzone.png" alt="calzone">
+
+    <h3>calzone</h3>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="bread">
+    <img src="images/spicy-twisty.png" alt="spicy-twisty">
+    <h3>spicy twisty</h3>
+    <div class="size-box">
+         <button class="add-cart">Price <span>₹45</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+
+<div class="food-card" data-category="dip">
+    <img src="images/dip.png" alt="Dip">
+
+    <h3>Dip</h3>
+
+    <p>Choice of Your Favourite Dip</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹25</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="shake">
+    <img src="images/cold-coffee.png" alt="Cold Coffee">
+
+    <h3>Cold Coffee</h3>
+
+    <p>Refreshing Cold Coffee</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="shake">
+    <img src="images/chocolate-shake.png" alt="Chocolate Shake">
+
+    <h3>Chocolate Shake</h3>
+
+    <p>Rich Chocolate Shake</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="shake">
+    <img src="images/strawberry-shake.png" alt="Strawberry Shake">
+
+    <h3>Strawberry Shake</h3>
+
+    <p>Fresh Strawberry Shake</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="shake">
+    <img src="images/oreo-shake.png" alt="oreo Shake">
+
+    <h3>oreo Shake</h3>
+
+    <p>Fresh oreo Shake</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="shake">
+    <img src="images/butterscotch-shake.png" alt="butterscotch Shake">
+
+    <h3>butterscotch Shake</h3>
+
+    <p>Fresh butterscotch Shake</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="sandwich">
+    <img src="images/classic-sandwich.png" alt="Classic Sandwich">
+
+    <h3>Classic Sandwich</h3>
+
+    <p>Fresh Veg Classic Sandwich</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹70</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="sandwich">
+    <img src="images/spicy-sandwich.png" alt="Spicy Sandwich">
+
+    <h3>Spicy Sandwich</h3>
+
+    <p>Spicy Veg Sandwich</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹90</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+
+<div class="food-card" data-category="sandwich">
+    <img src="images/jumbo-sandwich.png" alt="Jumbo Sandwich">
+
+    <h3>Jumbo Sandwich</h3>
+
+    <p>Extra Large Veg Sandwich</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹140</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+<div class="food-card" data-category="sandwich">
+    <img src="images/cheesy-sandwich.png" alt="cheesy Sandwich">
+
+    <h3>cheesy Sandwich</h3>
+
+    <p>Extra cheesy Sandwich</p>
+
+    <div class="size-box">
+        <button class="add-cart">Price <span>₹110</span></button>
+    </div>
+    <button class="add-cart">🛒 Add to Cart</button>
+</div>
+</section>
+
+
+<!-- Contact -->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>📍 Ganga Vihar, North East Delhi</p>
+
+<p>📞 9990994631</p>
+
+<p>📞 9718660360</p>
+
+<button>Order on WhatsApp</button>
+
+</section>
+<!-- Gallery Start -->
+
+<section class="gallery">
+
+<h2 class="title">Food Gallery</h2>
+
+<div class="gallery-box">
+
+<img src="images/king's-special.png" alt="King's Special">
+<img src="images/tandoori-veggie-burger.png" alt="Burger">
+<img src="images/cheesey-pizza.png" alt="Pizza">
+<img src="images/chocolava.png" alt="ChocolavaLava">
+
+</div>
+
+
+</section>
+
+<!-- Google Map -->
+
+<section class="location">
+
+<h2 class="title">Our Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Ganga+Vihar+Delhi&output=embed"
+width="100%"
+height="400"
+style="border:0;"
+loading="lazy">
+</iframe>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="footer-content">
+
+<h2>Burger Pizza</h2>
+
+<p>Fresh Food | Fast Delivery | Best Taste</p>
+
+<p>📍 Ganga Vihar, North East Delhi</p>
+
+<p>📞 9990994631</p>
+
+<p>📞 9718660360</p>
+
+<p>© 2026 Burger Pizza. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+
+<!-- Floating WhatsApp Button -->
+
+<a href="https://wa.me/919718660360"
+class="whatsapp-btn"
+target="_blank">
+
+💬
+
+</a>
+<!-- Shopping Cart -->
+
+<div class="cart-popup" id="cartPopup">
+
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+
+
+
+
+<h3>Total: ₹<span id="totalPrice">0</span></h3>
+
+<button id="closeCart">Close</button>
+<button id="checkoutBtn">Checkout on WhatsApp</button>
+    <div class="customer-details">
+
+    <h3>Customer Details</h3>
+
+    <input
+        type="text"
+        id="customerName"
+        placeholder="Enter your name"
+        required
+    >
+
+    <input
+        type="tel"
+        id="customerPhone"
+        placeholder="Enter mobile number"
+        maxlength="10"
+        required
+    >
+
+    <textarea
+        id="customerAddress"
+        placeholder="Enter delivery address"
+        required
+    ></textarea>
+
+</div>
+    <button id="checkoutBtn">Checkout on WhatsApp</button>
+</a>
+</div>
+<div id="toast">✅ Item Added To Cart</div>
+<button id="topBtn">⬆️</button>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
