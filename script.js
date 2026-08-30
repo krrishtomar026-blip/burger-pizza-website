@@ -558,18 +558,18 @@ let cart =
 
 
                 let message =
-`🍔 BURGER PIZZA — NEW ORDER
+` BURGER PIZZA — NEW ORDER
 
-👤 Customer Name:
+ Customer Name:
 ${customerName.value.trim()}
 
-📱 Mobile Number:
+ Mobile Number:
 ${customerPhone.value.trim()}
 
-📍 Delivery Address:
+ Delivery Address:
 ${customerAddress.value.trim()}
 
-🛒 ORDER DETAILS
+ ORDER DETAILS
 -------------------------
 `;
 
@@ -595,9 +595,9 @@ ${customerAddress.value.trim()}
                 message +=
 `
 -------------------------
-💰 TOTAL AMOUNT: ₹${finalTotal}
+ TOTAL AMOUNT: ₹${finalTotal}
 
-🙏 Thank you for ordering from Burger Pizza!`;
+ Thank you for ordering from Burger Pizza!`;
 
 
                 const whatsappLink =
