@@ -1722,3 +1722,127 @@ background:#d62828;
         box-sizing: border-box;
     }
 }
+/* =========================
+   FINAL MOBILE FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .food-container {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .food-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+        padding: 0 !important;
+        box-sizing: border-box;
+    }
+
+    .food-card img {
+        width: 100% !important;
+        height: 220px !important;
+        object-fit: cover;
+        display: block;
+    }
+
+    .food-card h3 {
+        font-size: 22px !important;
+        margin: 15px 10px 8px !important;
+    }
+
+    .food-card p {
+        font-size: 15px !important;
+        padding: 0 15px 10px !important;
+        line-height: 1.5;
+    }
+
+    .food-card h4 {
+        display: block !important;
+        color: #d62828 !important;
+        font-size: 22px !important;
+        margin: 10px 0 !important;
+    }
+
+    .size-box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .size-box button {
+        width: 100% !important;
+        min-height: 50px;
+        background: white !important;
+        color: #222 !important;
+        border: 1px solid #ddd !important;
+    }
+
+    .size-box button span {
+        color: #2563eb !important;
+    }
+
+    .add-cart {
+        width: 90% !important;
+        margin: 10px auto 20px !important;
+        display: block;
+    }
+
+    .wishlist,
+    .fav-icon {
+        z-index: 10;
+    }
+
+    .hero {
+        width: 100%;
+        min-height: 500px;
+        box-sizing: border-box;
+    }
+
+    .overlay {
+        width: 90%;
+        box-sizing: border-box;
+        padding: 25px 15px;
+    }
+
+    .overlay h1 {
+        font-size: 30px;
+    }
+
+    .overlay input {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .categories,
+    .best-selling,
+    .offers,
+    .reviews,
+    .gallery,
+    .location {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .gallery-box {
+        grid-template-columns: 1fr !important;
+    }
+
+    .gallery-box img {
+        height: 220px;
+    }
+}
