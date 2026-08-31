@@ -1662,3 +1662,63 @@ background:#d62828;
     max-height: 90vh;
     overflow-y: auto;
 }
+/* =========================
+   MOBILE VIEW FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .food-container,
+    .food-grid,
+    .menu-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .food-card {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .food-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .food-card h3 {
+        font-size: 17px;
+        word-wrap: break-word;
+    }
+
+    .food-card p {
+        font-size: 13px;
+        word-wrap: break-word;
+    }
+
+    .size-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .size-box button {
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    .add-cart {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
