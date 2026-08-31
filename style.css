@@ -1859,3 +1859,17 @@ background:#d62828;
         height:55px;
     }
 }
+.hero-logo{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+@media(max-width:768px){
+    .hero-logo{
+        width:130px;
+        height:130px;
+    }
+}
