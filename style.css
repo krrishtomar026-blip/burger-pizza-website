@@ -1846,3 +1846,16 @@ background:#d62828;
         height: 220px;
     }
 }
+.logo img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    border-radius:50%;
+}
+
+@media (max-width:600px){
+    .logo img{
+        width:55px;
+        height:55px;
+    }
+}
